@@ -13,10 +13,14 @@ Open http://localhost:5000 in your browser. The app will attempt to load the mod
 
 To include a demo video in this repository's README, copy your video file (e.g. `demo.mp4`) into an `assets/` folder at the repo root and add the following HTML snippet to this README where you want the player shown:
 
-```html
-<video src="assets/demo.mp4" controls width="640">
-  Your browser does not support the video tag.
-</video>
+Play or download the video directly from the repo:
+
+- Download/play locally: [assets/demo.mp4](assets/demo.mp4)
+
+Note: GitHub's README renderer does not reliably display the HTML5 `<video>` player. For a polished embedded player in your project page, upload the video to YouTube/Vimeo and embed the link, or use GitHub Pages which can render raw HTML. Example external link:
+
+```markdown
+[Watch demo](https://youtu.be/your_video_id)
 ```
 
 Notes:
