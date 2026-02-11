@@ -9,6 +9,14 @@ python app.py
 
 Open http://localhost:5000 in your browser. The app will attempt to load the model files from `notebooks/model.pkl` and `notebooks/vectorizer.pkl`.
 
+## Live demo page (GitHub Pages)
+
+If you want visitors to see the demo video immediately when opening the project, enable GitHub Pages for this repository (the workflow below will auto-publish the `docs/` site). Once published the demo will be available at:
+
+https://irtazafayaz.github.io/sms-spam-detection/
+
+If Pages is not enabled yet, enable it in your repository Settings → Pages → Source → Deploy from a branch → `gh-pages` (the provided workflow will populate that branch automatically on push).
+
 ## Demo video
 
 To include a demo video in this repository's README, copy your video file (e.g. `demo.mp4`) into an `assets/` folder at the repo root and add the following HTML snippet to this README where you want the player shown:

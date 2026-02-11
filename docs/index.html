@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SMS Spam Detector — Demo</title>
+    <style>
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Arial;
+        background: #111;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .player {
+        max-width: 1000px;
+        width: 95%;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 12px;
+        font-size: 20px;
+      }
+      .meta {
+        text-align: center;
+        color: #bbb;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="player">
+      <h1>SMS Spam Detector — Demo</h1>
+      <video
+        controls
+        playsinline
+        controlslist="nodownload"
+        style="width: 100%; border-radius: 8px; background: #000"
+        poster=""
+      >
+        <source
+          src="https://raw.githubusercontent.com/irtazafayaz/sms-spam-detection/main/assets/demo.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag. You can download the demo
+        here:
+        <a
+          href="https://github.com/irtazafayaz/sms-spam-detection/blob/main/assets/demo.mp4"
+          >assets/demo.mp4</a
+        >
+      </video>
+      <div class="meta">
+        If the video does not play, open the raw file or enable GitHub Pages for
+        this repository.
+      </div>
+    </div>
+  </body>
+</html>
